@@ -34,6 +34,10 @@ const config = {
           foreground: 'hsl(var(--tertiary-foreground))',
           hover: 'hsl(var(--tertiary-hover))',
         },
+        greyed: {
+          DEFAULT: 'hsl(var(--greyed))',
+          foreground: 'hsl(var(--greyed-foreground))',
+        },
         destructive: {
           DEFAULT: 'hsl(var(--destructive))',
           foreground: 'hsl(var(--destructive-foreground))',
@@ -48,8 +52,8 @@ const config = {
       },
       borderRadius: {
         lg: 'var(--radius)',
-        md: 'calc(var(--radius) - 2px)',
-        sm: 'calc(var(--radius) - 4px)',
+        md: 'calc(var(--radius) - 10px)',
+        sm: 'calc(var(--radius) - 15px)',
       },
       keyframes: {
         'accordion-down': {
