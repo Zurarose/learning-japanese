@@ -16,7 +16,7 @@ const buttonVariants = cva(
         sm: 'text-sm h-5 rounded-sm px-3 py-2',
         md: 'text-sm h-10 rounded-md px-4 py-2',
         lg: 'text-base h-11 rounded-md px-4 py-2',
-        rounded: 'rounded-full w-[40px] h-[40px] text-sm py-0 px-0 border-none'
+        rounded: 'rounded-full w-[40px] h-[40px] text-sm py-0 px-0 border-none',
       },
     },
     defaultVariants: {
@@ -40,4 +40,3 @@ export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
   },
 );
 Button.displayName = 'Button';
-
