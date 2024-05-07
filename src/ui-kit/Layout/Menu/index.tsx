@@ -35,7 +35,7 @@ export default function Menu({className}: MenuPropsT) {
     <>
       <div
         className={cn(
-          'w-10 h-10 bg-secondary hover:bg-secondary-hover rounded-full flex justify-center items-center cursor-pointer transition-all duration-300',
+          'w-10 h-10 bg-secondary hover:bg-secondary-hover rounded-full text-primary hover:text-secondary  flex justify-center items-center cursor-pointer transition-all duration-300',
           className,
         )}
         onClick={toggleOpen}>
